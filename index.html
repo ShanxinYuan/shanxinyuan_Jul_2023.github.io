@@ -1,1201 +1,1188 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>vCard - Personal Portfolio</title>
-
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
-
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
-
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <title>Shanxin Yuan</title>
+  
+  <meta name="author" content="Shanxin Yuan">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" type="image/png" href="images/seal-icon.png">
 </head>
 
 <body>
-
-  <!--
-    - #MAIN
-  -->
-
-  <main>
-
-    <!--
-      - #SIDEBAR
-    -->
-
-    <aside class="sidebar" data-sidebar>
-
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Richard hanrick">Richard hanrick</h1>
-
-          <p class="title">Web developer</p>
-        </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
-      </div>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:richard@example.com" class="contact-link">richard@example.com</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+12133522795" class="contact-link">+1 (213) 352-2795</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="1982-06-23">June 23, 1982</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Sacramento, California, USA</address>
-            </div>
-
-          </li>
-
-        </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-
-        </ul>
-
-      </nav>
-
-
-
-
-
-      <!--
-        - #ABOUT
-      -->
-
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
-          <p>
-            I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
-            I enjoy
-            turning complex problems into simple, beautiful and intuitive designs.
-          </p>
-
-          <p>
-            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-            Moreover, I
-            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
-            across your
-            message and identity in the most creative way. I created web design for many famous brand companies.
-          </p>
-        </section>
-
-
-        <!--
-          - service
-        -->
-
-        <section class="service">
-
-          <h3 class="h3 service-title">What i'm doing</h3>
-
-          <ul class="service-list">
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web design</h4>
-
-                <p class="service-item-text">
-                  The most modern and high-quality design made at a professional level.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web development</h4>
-
-                <p class="service-item-text">
-                  High-quality development of sites at the professional level.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Mobile apps</h4>
-
-                <p class="service-item-text">
-                  Professional development of applications for iOS and Android.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Photography</h4>
-
-                <p class="service-item-text">
-                  I make high-quality photos of any category at a professional level.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials
-        -->
-
-        <section class="testimonials">
-
-          <h3 class="h3 testimonials-title">Testimonials</h3>
-
-          <ul class="testimonials-list has-scrollbar">
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials modal
-        -->
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
-              <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                </p>
-              </div>
-
-            </div>
-
-          </section>
-
-        </div>
-
-
-        <!--
-          - clients
-        -->
-
-        <section class="clients">
-
-          <h3 class="h3 clients-title">Clients</h3>
-
-          <ul class="clients-list has-scrollbar">
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-1-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-2-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-3-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-4-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-5-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-6-color.png" alt="client logo">
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #RESUME
-      -->
-
-      <article class="resume" data-page="resume">
-
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Education</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">University school of the arts</h4>
-
-              <span>2007 — 2008</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Shanxin Yuan</name>
               </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">New york academy of art</h4>
-
-              <span>2006 — 2007</span>
-
-              <p class="timeline-text">
-                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
-                omnis..
+              
+              <p>
+                I am a Lecturer in Digital Environment at <a href="http://www.eecs.qmul.ac.uk/">School of Electronic Engineering and Computer Science</a>, <a href="https://www.qmul.ac.uk/">Queen Mary University of London</a>. Previously, I was a Senior Research Scientist in Computer Vision at Huawei Noah's Ark Lab, London Research Center, UK. The techniques I have developed/involved have been shipped to several products. I received the PhD degree from Imperial College London, where I worked on hand pose estimation. My research interests are machine learning and computer vision, particularly 3D digital humans and computational photography. I am an Associate Editor for The Visual Computer journal. I regularly review for major computer vision conferences (CVPR, ICCV, ECCV, and NeurIPS) and related journals (TPAMI, IJCV and TIP).
               </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">High school of art and design</h4>
-
-              <span>2002 — 2004</span>
-
-              <p class="timeline-text">
-                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
-                magni dolores
-                eos.
+            
+              <p style="text-align:center">
+                <a href="mailto:shanxin.yuan@qmul.ac.uk">Email</a> &nbsp/&nbsp        
+                <a href="https://scholar.google.com/citations?user=htlcuX4AAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
+                <a href="https://www.linkedin.com/in/shanxin-yuan-4859b656/">Linkedin</a>
               </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Experience</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Creative director</h4>
-
-              <span>2015 — Present</span>
-
-              <p class="timeline-text">
-                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
-                molestias
-                exceptur.
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <a href="https://sites.google.com/site/shanxinyuan/config/pagetemplates/shanxin-yuan/shanxin.png?attredirects=0"><img height="160" src='images/shanxin2.PNG' width="144"></a>
+            </td>
+          
+                    </tr>
+        </tbody></table>
+  
+  
+        
+      
+ 
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              
+              <heading><p style="color:red">New Position</p></heading>
+              
+              <!-- <p style="color:red">PhD: A new full-funded 2023 PhD studentship (4 years) on "Digitising Humans for Immersive Gaming"; starting in September 2023, application deadline is Monday, 15th May 2023, 12:00 noon BST; Open to home-fee applicants.</p>
+              -->
+              <p style="color:red">Postdoc: I am hosting Marie Skłodowska-Curie Actions (MSCA) Postdoctoral Fellows for 1-2 years, deadline for Expression of Interest is 14th July 2023. Researchers of any nationality can apply.</p>
+     
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        
+          
+          
+              
+  
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              
+              <heading>Open Positions</heading>
+              
+              <p>
+              I am always looking for motivated PhD students, Postdoctoral researchers, interns, and external members to work with me. Funding is available on a competitive basis. For enquiries about the research or positions, please send me an email.
               </p>
+              
+              
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          
+          
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Publications</heading>
+             
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          
+          
+          
+          <tr onmouseout="dualrefl_stop()" onmouseover="dualrefl_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              
+                <div class="two" id='dualrefl_image'>
+                   <img src='images/NeRFVS.png' width="160">
+                </div>
+                <img src='images/NeRFVS.png' width="160">
+   
+     
+              <script type="text/javascript">
+                function dualrefl_start() {
+                  document.getElementById('dualrefl_image').style.opacity = "1";
+                }
 
-            </li>
+                function dualrefl_stop() {
+                  document.getElementById('dualrefl_image').style.opacity = "0";
+                }
+                dualrefl_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a>
+                <papertitle>NeRFVS: Neural Radiance Fields for Free View Synthesis via Geometry Scaffolds</papertitle>
+              </a>
+              <br>
+              <a>C Yang</a>,
+              <a>P Li</a>,
+              <a>Z Zhou</a>,
+              <a><strong>S Yuan</strong></a>,
+              <a>B Liu</a>,
+              <a>X Yang</a>,
+              <a>W Qiu</a>,
+              <a>W Shen</a>
+              <br>
+              <em>CVPR</em>, 2023            
+              <p></p>
+              
+            </td>
+          </tr> 
+          
+          
+          <tr onmouseout="dualrefl_stop()" onmouseover="dualrefl_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              
+                <div class="two" id='dualrefl_image'>
+                   <img src='images/HDRTransformer.PNG' width="160">
+                </div>
+                <img src='images/HDRTransformer.PNG' width="160">
+   
+     
+              <script type="text/javascript">
+                function dualrefl_start() {
+                  document.getElementById('dualrefl_image').style.opacity = "1";
+                }
 
-            <li class="timeline-item">
+                function dualrefl_stop() {
+                  document.getElementById('dualrefl_image').style.opacity = "0";
+                }
+                dualrefl_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a>
+                <papertitle>Improving Dynamic HDR Imaging with Fusion Transformer</papertitle>
+              </a>
+              <br>
+              <a>R Chen</a>,
+              <a>B Zheng</a>,
+              <a>H Zhang</a>,
+              <a>Q Chen</a>,
+              <a>C Yan</a>,
+              <a>G Slabaugh</a>,
+              <a><strong>S Yuan</strong></a>
+              <br>
+              <em>AAAI</em>, 2023            
+              <p></p>
+              
+            </td>
+          </tr> 
+          
+          
+          <tr onmouseout="dualrefl_stop()" onmouseover="dualrefl_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              
+                <div class="two" id='dualrefl_image'>
+                   <img src='images/LLVE.PNG' width="160">
+                </div>
+                <img src='images/LLVE.PNG' width="160">
+   
+     
+              <script type="text/javascript">
+                function dualrefl_start() {
+                  document.getElementById('dualrefl_image').style.opacity = "1";
+                }
 
-              <h4 class="h4 timeline-item-title">Art director</h4>
+                function dualrefl_stop() {
+                  document.getElementById('dualrefl_image').style.opacity = "0";
+                }
+                dualrefl_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a>
+                <papertitle>Low-Light Video Enhancement with Synthetic Event Guidance</papertitle>
+              </a>
+              <br>
+              <a>L Liu</a>,
+              <a>J An</a>,
+              <a>J Liu</a>,
+              <a><strong>S Yuan</strong></a>,
+              <a>X Chen</a>,
+              <a>W Zhou </a>,
+              <a>H Li </a>,
+              <a>Y Wang</a>,
+              <a>Q Tian</a>
+              <br>
+              <em>AAAI</em>, 2023            
+              <p></p>
+              
+            </td>
+          </tr> 
+          
+       
+          
+          
+          
+          <tr onmouseout="dualrefl_stop()" onmouseover="dualrefl_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              
+                <div class="two" id='dualrefl_image'>
+                   <img src='images/TAPE.PNG' width="160">
+                </div>
+                <img src='images/TAPE.PNG' width="160">
+   
+     
+              <script type="text/javascript">
+                function dualrefl_start() {
+                  document.getElementById('dualrefl_image').style.opacity = "1";
+                }
 
-              <span>2013 — 2015</span>
+                function dualrefl_stop() {
+                  document.getElementById('dualrefl_image').style.opacity = "0";
+                }
+                dualrefl_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a>
+                <papertitle>TAPE: Task-Agnostic Prior Embedding for Image Restoration</papertitle>
+              </a>
+              <br>
+              <a>L Liu</a>,
+              <a>L Xie</a>,
+              <a>X Zhang</a>,
+              <a><strong>S Yuan</strong></a>,
+              <a>X Chen</a>,
+              <a>W Zhou</a>,
+              <a>H Li</a>,
+              <a>Q Tian</a>
+              <br>
+              <em>ECCV</em>, 2022            
+              <p></p>
+              
+            </td>
+          </tr> 
+          
+          
+          <tr onmouseout="dualrefl_stop()" onmouseover="dualrefl_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              
+                <div class="two" id='dualrefl_image'>
+                   <img src='images/DPN.PNG' width="160">
+                </div>
+                <img src='images/DPN.PNG' width="160">
+   
+     
+              <script type="text/javascript">
+                function dualrefl_start() {
+                  document.getElementById('dualrefl_image').style.opacity = "1";
+                }
 
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
+                function dualrefl_stop() {
+                  document.getElementById('dualrefl_image').style.opacity = "0";
+                }
+                dualrefl_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a>
+                <papertitle>DomainPlus: Cross-Transform Domain Learning towards High Dynamic Range Imaging</papertitle>
+              </a>
+              <br>
+              <a>B Zheng</a>,
+              <a>X Pan</a>,
+              <a>H Zhang</a>,
+              <a>X Zhou</a>,
+              <a>G Slabaugh</a>,
+              <a>C Yan</a>,
+              <a><strong>S Yuan</strong></a>
+              <br>
+              <em>ACM MM</em>, 2022            
+              <p></p>
+              
+            </td>
+          </tr> 
+          
+          
+          <tr onmouseout="dualrefl_stop()" onmouseover="dualrefl_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              
+                <div class="two" id='dualrefl_image'>
+                   <img src='images/siamtran.PNG' width="160">
+                </div>
+                <img src='images/siamtran.PNG' width="160">
+   
+     
+              <script type="text/javascript">
+                function dualrefl_start() {
+                  document.getElementById('dualrefl_image').style.opacity = "1";
+                }
+
+                function dualrefl_stop() {
+                  document.getElementById('dualrefl_image').style.opacity = "0";
+                }
+                dualrefl_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a>
+                <papertitle>SiamTrans: Zero-Shot Multi-Frame Image Restoration with Pre-Trained Siamese Transformers</papertitle>
+              </a>
+              <br>
+              <a>L Liu</a>,
+              <a><strong>S Yuan</strong></a>,
+              <a>J Liu</a>,
+              <a>X Guo</a>,
+              <a>Y Yan</a>,
+              <a>Q Tian</a>
+              <br>
+              <em>AAAI</em>, 2022            
+              <p></p>              
+            </td>
+          </tr> 
+          
+          <tr onmouseout="dualrefl_stop()" onmouseover="dualrefl_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              
+                <div class="two" id='dualrefl_image'>
+                   <img src='images/Disentanglement_body.PNG' width="160">
+                </div>
+                <img src='images/Disentanglement_body.PNG' width="160">
+              <script type="text/javascript">
+                function dualrefl_start() {
+                  document.getElementById('dualrefl_image').style.opacity = "1";
+                }
+
+                function dualrefl_stop() {
+                  document.getElementById('dualrefl_image').style.opacity = "0";
+                }
+                dualrefl_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a>
+                <papertitle>Disentangling 3D Attributes from a Single 2D Image: Human Pose, Shape and Garment</papertitle>
+              </a>
+              <br>
+              <a>X Hu</a>,
+              <a>X Li</a>,
+              <a>B Busam</a>,
+              <a>Y Zhou</a>,
+              <a>A Leonardis</a>,
+              <a><strong>S Yuan</strong></a>           
+              <br>
+              <em>BMVC</em>, 2022            
+              <p></p>              
+            </td>
+          </tr> 
+          
+          <tr onmouseout="dualrefl_stop()" onmouseover="dualrefl_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              
+                <div class="two" id='dualrefl_image'>
+                   <img src='images/CPF.PNG' width="160">
+                </div>
+                <img src='images/CPF.PNG' width="160">
+   
+     
+              <script type="text/javascript">
+                function dualrefl_start() {
+                  document.getElementById('dualrefl_image').style.opacity = "1";
+                }
+
+                function dualrefl_stop() {
+                  document.getElementById('dualrefl_image').style.opacity = "0";
+                }
+                dualrefl_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a>
+                <papertitle>Constrained Predictive Filters for Single Image Bokeh Rendering</papertitle>
+              </a>
+              <br>
+              <a>B Zheng</a>,
+              <a>Q Chen</a>,
+              <a><strong>S Yuan</strong></a>,
+              <a>X Zhou</a>,
+              <a>H Zhang</a>,
+              <a>J Zhang</a>,
+              <a>C Yan</a>,
+              <a>G Slabaugh</a>
+              <br>
+              <em>TCI</em>, 2022            
+              <p></p>              
+            </td>
+          </tr> 
+          
+          
+          
+          
+          
+          <tr onmouseout="dualrefl_stop()" onmouseover="dualrefl_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              
+                <div class="two" id='dualrefl_image'>
+                   <img src='images/SJHD2R.PNG' width="160">
+                </div>
+                <img src='images/SJHD2R.PNG' width="160">
+              <script type="text/javascript">
+                function dualrefl_start() {
+                  document.getElementById('dualrefl_image').style.opacity = "1";
+                }
+
+                function dualrefl_stop() {
+                  document.getElementById('dualrefl_image').style.opacity = "0";
+                }
+                dualrefl_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a>
+                <papertitle>SJ-HD2R: Selective Joint High Dynamic Range and Denoising Imaging for Dynamic Scenes</papertitle>
+              </a>
+              <br>
+              <a>W Li</a>,
+              <a>X Shuai</a>,
+              <a>T Dai</a>,
+              <a><strong>S Yuan</strong></a>,
+              <a>T Wang</a>,
+              <a>C Li</a>,
+              <a>F Song</a>              
+              <br>
+              <em>arXiv</em>, 2022            
+              <p></p>              
+            </td>
+          </tr> 
+          
+          <tr onmouseout="dualrefl_stop()" onmouseover="dualrefl_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              
+                <div class="two" id='dualrefl_image'>
+                   <img src='images/tpami_21.PNG' width="160">
+                </div>
+                <img src='images/tpami_21.PNG' width="160">
+   
+     
+              <script type="text/javascript">
+                function dualrefl_start() {
+                  document.getElementById('dualrefl_image').style.opacity = "1";
+                }
+
+                function dualrefl_stop() {
+                  document.getElementById('dualrefl_image').style.opacity = "0";
+                }
+                dualrefl_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a>
+                <papertitle>Learning Frequency Domain Priors for Image Demoireing</papertitle>
+              </a>
+              <br>
+              <a>B Zheng</a>,
+              <a><strong>S Yuan</strong></a>,
+              <a>C Yan</a>,
+              <a>X Tian</a>,
+              <a>J Zhang</a>,
+              <a>Y Sun</a>,
+              <a>L Liu</a>,
+              <a>A Leonardis</a>,
+              <a>G Slabaugh</a>
+              <br>
+              <em>TPAMI</em>, 2021 
+              <br>
+              <a href="https://ieeexplore.ieee.org/abstract/document/9547736/">Paper</a> 
+              <br>           
+              <p></p>              
+            </td>
+          </tr>  
+          
+          
+          <tr onmouseout="dualrefl_stop()" onmouseover="dualrefl_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              
+                <div class="two" id='dualrefl_image'>
+                   <img src='images/CBREN.PNG' width="160">
+                </div>
+                <img src='images/CBREN.PNG' width="160">   
+     
+              <script type="text/javascript">
+                function dualrefl_start() {
+                  document.getElementById('dualrefl_image').style.opacity = "1";
+                }
+
+                function dualrefl_stop() {
+                  document.getElementById('dualrefl_image').style.opacity = "0";
+                }
+                dualrefl_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a>
+                <papertitle>Constrained Predictive Filters for Single Image Bokeh Rendering</papertitle>
+              </a>
+              <br>
+              
+              <a>H Zhao</a>,
+              <a>B Zheng</a>,
+              <a><strong>S Yuan</strong></a>,
+              <a>H Zhang</a>,
+              <a>C Yan</a>,
+              <a>L Li</a>,
+              <a>G Slabaugh</a>
+              <br>
+              <em>TCSVT</em>, 2021        
+              <p></p>              
+            </td>
+          </tr> 
+          
+          <tr onmouseout="dualrefl_stop()" onmouseover="dualrefl_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              
+                <div class="two" id='dualrefl_image'>
+                   <img src='images/dwt_21.PNG' width="160">
+                </div>
+                <img src='images/dwt_21.PNG' width="160">
+              <script type="text/javascript">
+                function dualrefl_start() {
+                  document.getElementById('dualrefl_image').style.opacity = "1";
+                }
+                function dualrefl_stop() {
+                  document.getElementById('dualrefl_image').style.opacity = "0";
+                }
+                dualrefl_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a>
+                <papertitle>Wavelet-Based Network For High Dynamic Range Imaging</papertitle>
+              </a>
+              <br>
+              <a>T Dai</a>,
+              <a>W Li</a>,
+              <a>X Cao</a>,
+              <a>J Liu</a>,
+              <a>X Jia</a>,
+              <a>A Leonardis</a>,
+              <a>Y Yan</a>,
+              <a><strong>S Yuan</strong></a>
+              <br>
+              <em>arXiv</em>, 2021 
+              <br>
+              <a href="https://arxiv.org/pdf/2108.01434.pdf">Arxiv</a> 
+              <br>           
+              <p></p>              
+            </td>
+          </tr>
+          
+          
+          <tr onmouseout="dualrefl_stop()" onmouseover="dualrefl_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              
+                <div class="two" id='dualrefl_image'>
+                   <img src='images/FDNet.png' width="160">
+                </div>
+                <img src='images/FDNet.png' width="160">
+   
+     
+              <script type="text/javascript">
+                function dualrefl_start() {
+                  document.getElementById('dualrefl_image').style.opacity = "1";
+                }
+
+                function dualrefl_stop() {
+                  document.getElementById('dualrefl_image').style.opacity = "0";
+                }
+                dualrefl_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a>
+                <papertitle>Self-Adaptively Learning to Demoiré from Focused and Defocused Image Pairs</papertitle>
+              </a>
+              <br>
+              <a>L Liu</a>,
+              <a><strong>S Yuan</strong></a>,
+              <a>J Liu</a>,
+              <a>L Bao</a>,
+              <a>G Slabaugh</a>,
+              <a>Q Tian</a>
+              <br>
+              <em>NeurIPS</em>, 2020  
+              <br>
+              <a href="https://papers.nips.cc/paper/2020/file/fd348179ec677c5560d4cd9c3ffb6cd9-Paper.pdf">Paper</a> /
+              <a href="https://arxiv.org/pdf/2011.02055.pdf">arXiv</a> /
+              <a href="http://home.ustc.edu.cn/~ll0825/project_FDNet.html">Project page</a> 
+              <br>
+              <p></p>
+              
+            </td>
+          </tr>           
+          
+         
+    
+          <tr onmouseout="thresh_stop()" onmouseover="thresh_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              
+                <div class="two" id='thresh_image'>
+                  <img src='images/TGA.png' width="160"></div>
+                <img src='images/TGA.png' width="160">
+              
+              <script type="text/javascript">
+                function thresh_start() {
+                  document.getElementById('thresh_image').style.opacity = "1";
+                }
+
+                function thresh_stop() {
+                  document.getElementById('thresh_image').style.opacity = "0";
+                }
+                thresh_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a>
+                <papertitle>Video Super-resolution with Temporal Group Attention</papertitle>
+              </a>
+              <br>
+              <a>T Isobe</a>,
+              <a>S Li</a>,
+              <a>X Jia</a>,
+              <a><strong>S Yuan</strong></a>,
+              <a>G Slabaugh</a>,
+              <a>C Xu</a>,
+              <a>YL Li</a>,
+              <a>S Wang</a>,
+              <a>Q Tian</a>
+              <br>
+              <em>CVPR</em>, 2020
+              <br>
+              <a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Isobe_Video_Super-Resolution_With_Temporal_Group_Attention_CVPR_2020_paper.pdf">Paper</a>/
+              <a href="https://arxiv.org/pdf/2007.10595.pdf">arXiv</a>/
+              <a href="https://github.com/junpan19/VSR_TGA">Code</a>
+              
+              <br>
+              <p></p>
+              
+            </td>
+          </tr>  
+    
+    
+          <tr onmouseout="uflow_stop()" onmouseover="uflow_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              
+                <div class="two" id='uflow_image'>
+                  <img src='images/LBF.png' width="160"></div>
+                <img src='images/LBF.png' width="160">
+             
+              <script type="text/javascript">
+                function uflow_start() {
+                  document.getElementById('uflow_image').style.opacity = "1";
+                }
+
+                function uflow_stop() {
+                  document.getElementById('uflow_image').style.opacity = "0";
+                }
+                uflow_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a>
+                <papertitle>Image Demoireing with Learnable Bandpass Filters</papertitle>
+              </a>
+              <br>
+              <a>B Zheng</a>,
+              <a><strong>S Yuan</strong></a>,
+              <a>G Slabaugh</a>,
+              <a>A Leonardis</a>
+              <br>
+              <em>CVPR</em>, 2020 
+              <br>
+              <a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Zheng_Image_Demoireing_with_Learnable_Bandpass_Filters_CVPR_2020_paper.pdf">Paper</a>/
+              <a href="https://arxiv.org/pdf/2004.00406.pdf">arXiv</a>/
+              <a href="https://github.com/zhenngbolun/Learnbale_Bandpass_Filter">Code</a>
+              <p></p>
+              
+            </td>
+          </tr>  
+          
+           <tr onmouseout="nlt_stop()" onmouseover="nlt_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              
+                <div class="two" id='nlt_image'>
+                 <img src='images/WDNet.PNG' width="160"></div>
+                <img src='images/WDNet.PNG' width="160">
+             
+              <script type="text/javascript">
+                function nlt_start() {
+                  document.getElementById('nlt_image').style.opacity = "1";
+                }
+
+                function nlt_stop() {
+                  document.getElementById('nlt_image').style.opacity = "0";
+                }
+                nlt_stop()
+              </script>
+            </td>
+            
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a>
+                <papertitle>Wavelet-Based Dual-Branch Network for Image Demoireing</papertitle>
+              </a>
+              <br>
+              <a>L Liu</a>,
+              <a>J Liu</a>,
+              <a><strong>S Yuan</strong></a>,
+              <a>G Slabaugh</a>,
+              <a>A Leonardis</a>,
+              <a>W Zhou</a>,
+              <a>Q Tian</a>
+              <br>
+              <em>ECCV</em>, 2020  
+              <br>
+              <a href="https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123580086.pdf">Paper</a> /
+              <a href="https://arxiv.org/pdf/2007.07173.pdf">arXiv</a> 
+              
+            </td>
+          </tr> 
+          
+          <tr onmouseout="nerfw_stop()" onmouseover="nerfw_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              
+                <div class="two" id='dualrefl_image'>
+                  <img src='images/NTIRE2020.png' width="160"></div>
+                <img src='images/NTIRE2020.png' width="160">
+              
+              <script type="text/javascript">
+                function nerfw_start() {
+                  document.getElementById('nerfw_image').style.opacity = "1";
+                }
+
+                function nerfw_stop() {
+                  document.getElementById('nerfw_image').style.opacity = "0";
+                }
+                nerfw_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a>
+                <papertitle>NTIRE 2020 Challenge on Image Demoireing: Methods and Results</papertitle>
+              </a>
+              <br>
+              <a><strong>S Yuan</strong></a>,
+              <a>R Timofte</a>,
+              <a>A Leonardis</a>,
+              <a>G Slabaugh</a>,
+              <a>et al.</a> 
+              <br>
+              <em>CVPRW</em>, 2020  
+              <br>
+              <a href="https://openaccess.thecvf.com/content_CVPRW_2020/papers/w31/Yuan_NTIRE_2020_Challenge_on_Image_Demoireing_Methods_and_Results_CVPRW_2020_paper.pdf">Paper</a>/
+              <a href="https://arxiv.org/pdf/2005.03155.pdf">arXiv</a>/
+              <a href="https://data.vision.ee.ethz.ch/cvl/ntire20/">NTIRE 2020</a>/
+              <a href="https://competitions.codalab.org/competitions/22223">CodaLab</a>                
+            </td>
+          </tr> 
+    
+          <tr onmouseout="nerf_stop()" onmouseover="nerf_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+             
+                <div class="two" id='uflow_image'>
+                  <img src='images/AIM2019_logo.png' width="100"></div>
+                <img src='images/AIM2019_logo.png' width="100">
+             
+              <script type="text/javascript">
+                function nerf_start() {
+                  document.getElementById('nerf_image').style.opacity = "1";
+                }
+
+                function nerf_stop() {
+                  document.getElementById('nerf_image').style.opacity = "0";
+                }
+                nerf_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a>
+                <papertitle>Aim 2019 challenge on image demoireing: Methods and results</papertitle>
+              </a>
+              <br>
+              <a><strong>S Yuan</strong></a>,
+              <a>R Timofte</a>,
+              <a>G Slabaugh</a>,
+              <a>A Leonardis</a>,
+              <a>B Zheng</a>,
+              <a>X Ye</a>,
+              <a>X Tian</a>,
+              <a>Y Chen</a>,
+              <a>X Cheng</a>,
+              <a>Z Fu</a>,
+              <a>J Yang</a>,
+              <a>M Hong</a>,
+              <a>W Lin</a>,
+              <a>W Yang</a>,
+              <a>Y Qu</a>,
+              <a>H-K Shin</a>,
+              <a>J-Y Kim</a>,
+              <a>S-J Ko</a>,
+              <a>H Dong</a>,
+              <a>Y Guo</a>,
+              <a>J Wang</a>,
+              <a>X Ding</a>,
+              <a>Z Han</a>,
+              <a>S Dipta Das</a>,
+              <a>K Purohit</a>,
+              <a>P Kandula</a>,
+              <a>M Suin</a>,
+              <a>AN Rajagopalan</a>
+              <br>
+              <em>ICCVW</em>, 2019 
+              <br>
+              <a href="https://ieeexplore.ieee.org/abstract/document/9022366">Paper</a>/
+              <a href="https://arxiv.org/pdf/1911.03461.pdf">arXiv</a>/
+              <a href="https://data.vision.ee.ethz.ch/cvl/aim19/">AIM 2019</a>/
+              <a href="https://competitions.codalab.org/competitions/20165">CodaLab</a>
+              </td>
+          </tr> 
+
+          <tr onmouseout="porshadmanip_stop()" onmouseover="porshadmanip_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              
+                <div class="two" id='porshadmanip_image'>
+                  <img src='images/AIM2019_moire.png' width="160"></div>
+                <img src='images/AIM2019_moire.png' width="160">
+              
+              <script type="text/javascript">
+                function porshadmanip_start() {
+                  document.getElementById('porshadmanip_image').style.opacity = "1";
+                }
+
+                function porshadmanip_stop() {
+                  document.getElementById('porshadmanip_image').style.opacity = "0";
+                }
+                porshadmanip_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a>
+                <papertitle>Aim 2019 challenge on image demoireing: Dataset and study</papertitle>
+              </a>
+              <br>
+              <a><strong>S Yuan</strong></a>,
+              <a>R Timofte</a>,
+              <a>G Slabaugh</a>,
+              <a>A Leonardis</a>
+              <br>
+              <em>ICCVW</em>, 2019 
+              <br>
+              <a href="https://arxiv.org/abs/1911.02498">Paper</a>/
+              <a href="https://arxiv.org/abs/1911.02498">arXiv</a>/
+              <a href="https://data.vision.ee.ethz.ch/cvl/aim19/">AIM 2019</a>/
+              <a href="https://competitions.codalab.org/competitions/20165">CodaLab</a>
+            </td>
+          </tr>  
+
+          <tr onmouseout="learnaf_stop()" onmouseover="learnaf_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              
+                <div class="two" id='learnaf_image'>
+                  <img src='images/PI_hand.png' width="160"></div>
+                <img src='images/PI_hand.png' width="160">
+             
+              <script type="text/javascript">
+                function learnaf_start() {
+                  document.getElementById('learnaf_image').style.opacity = "1";
+                }
+
+                function learnaf_stop() {
+                  document.getElementById('learnaf_image').style.opacity = "0";
+                }
+                learnaf_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a >
+                <papertitle>3D Hand Pose Estimation from RGB Using Privileged Learning with Depth Data</papertitle>
+              </a>
+              <br>
+              <a><strong>S Yuan</strong></a>,
+              <a>B Stenger</a>,
+              <a>T-K Kim</a>
+              <br>
+              <em>ICCVW</em>, 2019  
+              <br>
+              <a href="https://openaccess.thecvf.com/content_ICCVW_2019/papers/HANDS/Yuan_3D_Hand_Pose_Estimation_from_RGB_Using_Privileged_Learning_with_ICCVW_2019_paper.pdf">Paper</a>/
+              <a href="https://arxiv.org/pdf/1811.07376.pdf">arXiv</a>
+            
+            </td>
+          </tr>  
+
+    
+          <tr onmouseout="lighthouse_stop()" onmouseover="lighthouse_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              
+                <div class="two" id='learnaf_image'>
+                  <img src='images/Blackbox_TPAMI.png' width="160"></div>
+                <img src='images/Blackbox_TPAMI.png' width="160">
+              
+              <script type="text/javascript">
+                function lighthouse_start() {
+                  document.getElementById('lh_image').style.opacity = "1";
+                }
+
+                function lighthouse_stop() {
+                  document.getElementById('lh_image').style.opacity = "0";
+                }
+                lighthouse_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a>
+                <papertitle>Opening the Black Box: Hierarchical Sampling Optimization for Estimating Human Hand Pose</papertitle>
+              </a>
+              <br>
+              <a>D Tang</a>,
+              <a>Q Ye</a>,
+              <a><strong>S Yuan</strong></a>,
+              <a>T Taylor</a>,
+              <a>P Kohli</a>,
+              <a>C Keskin</a>,
+              <a>T-K Kim</a>,
+              <a>J Shotton</a>
+              <br>
+              <em><b>TPAMI</b></em>, 2018  
+              <br>
+              <a href="https://ieeexplore.ieee.org/document/7410737">Paper</a>
+              
+              
+            </td>
+          </tr>  
+
+          <tr onmouseout="skyopt_stop()" onmouseover="skyopt_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              
+                <div class="two" id='skyopt_image'>
+                  <img src='images/Future_hand.png' width="160"></div>
+                <img src='images/Future_hand.png' width="160">
+              
+              <script type="text/javascript">
+                function skyopt_start() {
+                  document.getElementById('skyopt_image').style.opacity = "1";
+                }
+
+                function skyopt_stop() {
+                  document.getElementById('skyopt_image').style.opacity = "0";
+                }
+                skyopt_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a>
+                <papertitle>Depth-Based 3D Hand Pose Estimation: From Current Achievements to Future Goals</papertitle>
+              </a>
+              <br>
+              <a><strong>S Yuan</strong></a>,
+              <a>G Garcia-Hernando</a>,
+              <a>B Stenger</a>,
+              <a>G Moon</a>,
+              <a>J-Y Chang</a>,
+              <a>K-M Lee</a>,
+              <a>P Molchanov</a>,
+              <a>J Kautz</a>,
+              <a>S Honari</a>,
+              <a>L Ge</a>,
+              <a>J Yuan</a>,
+              <a>X Chen</a>,
+              <a>G Wang</a>,
+              <a>F Yang</a>,
+              <a>K Akiyama</a>,
+              <a>Y Wu</a>,
+              <a>Q Wan</a>,
+              <a>M Madadi</a>,
+              <a>S Escalera</a>,
+              <a>S Li</a>,
+              <a>D Lee</a>,
+              <a>I Oikonomidis</a>,
+              <a>A Argyros</a>,
+              <a>T-K Kim</a>
+              
+              <br>
+              <em>CVPR</em>, 2018  
+              <br>
+                          </td>
+          </tr>  
+
+          <tr onmouseout="nightsight_stop()" onmouseover="nightsight_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              
+                <div class="two" id='nightsight_image'><img src='images/FirstHand.png' width="160"></div>
+                <img src='images/FirstHand.png' width="160">
+              
+              <script type="text/javascript">
+                function nightsight_start() {
+                  document.getElementById('nightsight_image').style.opacity = "1";
+                }
+
+                function nightsight_stop() {
+                  document.getElementById('nightsight_image').style.opacity = "0";
+                }
+                nightsight_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a>
+                <papertitle>First-Person Hand Action Benchmark with RGB-D Videos and 3D Hand Pose Annotations</papertitle>
+              </a>
+              <br>
+              <a>G Garcia-Hernando</a>,
+              <a>S Yuan</a>,
+              <a>S Baek</a>,
+              <a>T-K Kim</a>,
+              <br>
+              <em>CVPR</em>, 2018
+              <br>
+              <a href="https://openaccess.thecvf.com/content_cvpr_2018/papers/Garcia-Hernando_First-Person_Hand_Action_CVPR_2018_paper.pdf">Paper</a>
+              <a href="https://arxiv.org/pdf/1704.02463.pdf">arXiv</a>
+              <a href="https://guiggh.github.io/publications/first-person-hands/">Website</a>
+              <a href="https://github.com/guiggh/hand_pose_action">Data</a>
+            </td>
+          </tr>
+          
+          <tr onmouseout="font_stop()" onmouseover="font_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              
+                <div class="two" id='font_image'><img src='images/HIM17.png' width="160"></div>
+                <img src='images/HIM17.png' width="160">
+             
+              <script type="text/javascript">
+                function font_start() {
+                  document.getElementById('font_image').style.opacity = "1";
+                }
+
+                function font_stop() {
+                  document.getElementById('font_image').style.opacity = "0";
+                }
+                font_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a>
+                <papertitle>The 2017 Hands in the Million Challenge on 3D Hand Pose Estimation</papertitle>
+              </a>
+              <br>
+              <a><strong>S Yuan</strong></a>,
+              <a>Q Ye</a>,
+              <a>G Garcia-Hernando</a>,
+              <a>T-K Kim</a>             
+              <br>
+              <em>arXiv</em>, 2017 
+              <br>
+                         </td>
+          </tr>
+          
+          <tr onmouseout="dpzlearn_stop()" onmouseover="dpzlearn_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              
+                <div class="two" id='dpzlearn_image'><img src='images/Bighand.png' width="160"></div>
+                <img src='images/Bighand.png' width="160">
+              
+              <script type="text/javascript">
+                function dpzlearn_start() {
+                  document.getElementById('dpzlearn_image').style.opacity = "1";
+                }
+
+                function dpzlearn_stop() {
+                  document.getElementById('dpzlearn_image').style.opacity = "0";
+                }
+                dpzlearn_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a>
+                <papertitle>BigHand2.2M Benchmark: Hand Pose Data Set and State of the Art Analysis</papertitle>
+              </a>
+              <br>
+              <a><strong>S Yuan</strong></a>,
+              <a>Q Ye</a>,
+              <a>B Stenger</a>,
+              <a>S Jain</a>,
+              <a>T-K Kim</a>
+              <br>
+              <em>CVPR</em>, 2017
+              <br>
+                  </td>
+          </tr>
+          
+          <tr onmouseout="porlight_stop()" onmouseover="porlight_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              
+                <div class="two" id='porlight_image'><img src='images/SpatialHand.png' width="160"></div>
+                <img src='images/SpatialHand.png' width="160">
+              
+              <script type="text/javascript">
+                function porlight_start() {
+                  document.getElementById('porlight_image').style.opacity = "1";
+                }
+
+                function porlight_stop() {
+                  document.getElementById('porlight_image').style.opacity = "0";
+                }
+                porlight_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a>
+                <papertitle>Spatial Attention Deep Net with Partial PSO for Hierarchical Hybrid Hand Pose Estimation</papertitle>
+              </a>
+              <br>
+              <a>Q Ye</a>,
+              <a><strong>S Yuan</strong></a>,
+              <a>T-K Kim</a>
+              <br>
+              <em>ECCV</em>, 2016
+                 </td>
+          </tr>
+
+          
+
+          
+
+        </tbody></table>
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+          <tr>
+            <td>
+              <heading>Service</heading>
+            </td>
+          </tr>
+        </tbody></table>
+        <table width="100%" align="center" border="0" cellpadding="20"><tbody>
+          <tr>    
+              <a> Co-organizer, NTIRE 2020</a>
+              <br>  
+              <a> Co-organizer, HIM 2017</a>  
+              <br>
+              <a> Co-organizer, AIM 2019</a>
+              <br>            
+              <a> Reviewer, CVPR, NeurIPS, ICCV, ECCV</a>
+              <br>
+              <a> Reviewer, TPAMI, IJCV, TIP</a>
+              <br> 
+            </td>
+          </tr>
+  
+  <a href="https://clustrmaps.com/site/1bdyy"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=zQzGkcGdxzN-5-6_CJQZ_BHAgn4E52DhtfU_hZuVaD0&cl=ffffff" /></a>
+
+          
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:right;font-size:small;">
+               <a href="https://github.com/jonbarron/jonbarron_website"> Website template</a>
               </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Web designer</h4>
-
-              <span>2010 — 2013</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="skill">
-
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Web design</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Graphic design</h5>
-                <data value="70">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Branding</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">WordPress</h5>
-                <data value="50">50%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web design</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web design</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-
-            </ul>
-
-          </div>
-
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Finance</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Orizon</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Fundo</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Brawlhalla</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">DSM.</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #BLOG
-      -->
-
-      <article class="blog" data-page="blog">
-
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
-        </header>
-
-        <section class="blog-posts">
-
-          <ul class="blog-posts-list">
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
-
-                  <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
-
-                  <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #80</h3>
-
-                  <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
-
-                  <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-                  <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="contact">
-
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
-
-        <section class="contact-form">
-
-          <h3 class="h3 form-title">Contact Form</h3>
-
-          <form action="#" class="form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
-          </form>
-
-        </section>
-
-      </article>
-
-    </div>
-
-  </main>
-
-
-
-
-
-
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+            </td>
+          </tr>
+        </tbody></table>
+      </td>
+    </tr>
+  </table>
+  
+  
 </body>
 
 </html>
